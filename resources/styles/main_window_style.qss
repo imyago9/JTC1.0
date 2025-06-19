@@ -1,0 +1,267 @@
+/* QMainWindow */
+
+QMainWindow#MainWindow {
+    background-color: transparent; /* Make QMainWindow itself transparent */
+}
+
+/* QFrames */
+#mm_top_frame {
+    background-color: #2b2b2b;
+    border-radius: 10px;
+}
+#mm_bottom_frame {
+    background-color: #2b2b2b;
+    border-radius: 10px;
+}
+
+/* QLabels */
+#bottom_frame_filler_label {
+    background-color: #222222;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+/* QWidgets */
+
+QWidget#CentralWidget {
+    background-color: #222222;
+    border: 2px solid #c3dc9b;
+    border-radius: 10px; /* Apply rounded corners */
+    padding: 8px 16px;
+}
+
+/* QDialogs */
+
+QDialog#accounts_popup {
+    background: rgba(2b, 2b, 2b, 0);
+}
+
+
+
+/* QPushButtons */
+
+QPushButton#friends_icon {
+    border-radius: 3px;
+    padding: 8px 16px;
+    border: #86b5c6;
+    background: #c3dc9b;
+}
+QPushButton:hover#friends_icon {
+    background-color: #a3cde0;
+}
+
+QPushButton#switch_views {
+    border-radius: 3px;
+    padding: 8px 16px;
+    border: #dbce85;
+
+    background: #c3dc9b;
+}
+QPushButton:hover#switch_views {
+    background-color: #f2e5a2;
+}
+
+QPushButton#close_icon {
+    border-radius: 3px;
+    border: #c68585;
+    padding: 7px 7px;
+
+    background: #e0a3a3;
+}
+QPushButton:hover#close_icon {
+    background-color: #c68585;
+}
+
+QPushButton#minimize_icon {
+    border-radius: 3px;
+    border: #dbce85;
+    padding: 7px 7px;
+
+    background: #f2e5a2;
+}
+QPushButton:hover#minimize_icon {
+    background-color: #dbce85;
+}
+QPushButton#expand_icon {
+    border-radius: 3px;
+    border: #a8c17a;
+    padding: 7px 7px;
+
+    background: #c3dc9b;
+}
+QPushButton:hover#expand_icon {
+    background-color: #a8c17a;
+}
+
+
+/* FRIENDS LIST VIEW */
+QLineEdit {
+    color: white;
+    font-weight: bold;
+    border: 2px solid #9BBBDC;
+    border-radius: 5px;
+    background-color: #222222;
+}
+QLineEdit:hover {
+    border-color: white;
+}
+QLineEdit:focus {
+    border-color: #f2e5a2;
+}
+QPushButton {
+    color: white;
+    font-weight: bold;
+    border: 2px solid #e7f1d6;
+    border-radius: 5px;
+    background-color: #222222;
+}
+QPushButton:hover {
+    background-color: #486328;
+}
+
+/* FRIENDS VIEW */
+QLabel#FLV_menu_title, QLabel#FLV_placeholder_label {
+    color: white;
+    font-weight: bold;
+}
+QLabel#FLV_friend_name {
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+QLabel#FLV_friend_name:hover {
+    color: #c3dc9b;
+}
+QPushButton#FLV_accept_button, QPushButton#FLV_reject_button {
+    color: white;
+    font-weight: bold;
+    border: 2px solid #e7f1d6;
+    border-radius: 5px;
+    background-color: #222222;
+}
+
+/* ACCOUNT SELECTION VIEW */
+QScrollArea#ASV_account_list_scroll_area {
+    background: transparent;
+    border: none;
+}
+
+/* Styled Scroll Bar */
+QScrollArea#ASV_account_list_scroll_area QScrollBar:vertical {
+    background: #2a2a2a;
+    width: 8px;
+    border-radius: 4px;
+}
+
+QScrollArea#ASV_account_list_scroll_area QScrollBar::handle:vertical {
+    background: #86b5c6;
+    border-radius: 4px;
+}
+
+QScrollArea#ASV_account_list_scroll_area QScrollBar::handle:vertical:hover {
+    background: #a1cde1;
+}
+
+#ASV_account_list_scroll_area_widget {
+    background: transparent;
+    color: white;
+}
+
+/* QPushButtons */
+QPushButton {
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 6px 12px;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+/* Account Choice Button */
+QPushButton#ASV_button_account_choice {
+    border: 2px solid #e7f1d6;
+    background-color: #222222;
+}
+QPushButton#ASV_button_account_choice:hover {
+    background-color: #4a6b2a;
+    transform: scale(1.03);
+}
+
+/* Go Back Button */
+QPushButton#ASV_button_go_back {
+    border: 2px solid #e0a3a3;
+    background: #e0a3a3;
+    color: black;
+}
+QPushButton#ASV_button_go_back:hover {
+    background-color: #c68585;
+    transform: scale(1.03);
+}
+
+/* Add Account Button */
+QPushButton#ASV_button_add_account {
+    border: 2px solid #f2e5a2;
+    background: #f2e5a2;
+    color: black;
+}
+QPushButton#ASV_button_add_account:hover {
+    background-color: #dbce85;
+    transform: scale(1.03);
+}
+
+/* Backtest Button */
+QPushButton#ASV_button_backtest {
+    border: 2px solid #e7f1d6;
+    background: #e7f1d6;
+    color: black;
+}
+QPushButton#ASV_button_backtest:hover {
+    background-color: #86b5c6;
+    transform: scale(1.03);
+}
+
+/* Manual Account Button */
+QPushButton#ASV_button_manual_acc {
+    border: 2px solid #e7f1d6;
+    background: #e7f1d6;
+    color: black;
+}
+QPushButton#ASV_button_manual_acc:hover {
+    background-color: #a8c17a;
+    transform: scale(1.03);
+}
+
+/* Create Account Button */
+QPushButton#ASV_button_create_account {
+    border: 2px solid #c3dc9b;
+    background: #c3dc9b;
+    color: black;
+}
+QPushButton#ASV_button_create_account:hover {
+    background-color: #a8c17a;
+    transform: scale(1.03);
+}
+
+/* Account Name Input */
+QLineEdit#ASV_input_account_name {
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    border: 2px solid #c3dc9b;
+    border-radius: 5px;
+    padding: 6px;
+}
+QLineEdit#ASV_input_account_name:focus {
+    border-color: #e4f2ce;
+    background-color: #252525;
+}
+
+/* QLabels */
+
+QLabel#ASV_label_no_accounts {
+    color: #c3dc9b;
+    font-weight: bold;
+}
+
+
+
+

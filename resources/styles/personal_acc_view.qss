@@ -1,0 +1,65 @@
+
+/* QLabels */
+#personal_acc_view_label {
+    color: white;
+    font-weight: bold;
+}
+
+#pv_filler_label {
+    color: white;
+    font-weight: bold;
+}
+
+
+
+/* QStackedWidgets
+
+
+QStackedWidget#pv_first_graph_stack {
+    border: 2px solid #c3dc9b;
+    border-radius: 5px;
+    background-color: #333333;
+}
+QStackedWidget#pv_second_graph_stack {
+    border: 2px solid #c3dc9b;
+    border-radius: 5px;
+    background-color: #333333;
+}
+QStackedWidget#pv_third_graph_stack {
+    border: 2px solid #c3dc9b;
+    border-radius: 5px;
+    background-color: #333333;
+}
+*/
+
+/* QPushButtons */
+
+QPushButton#pv_stats_buttons {
+    background-color: transparent;
+}
+
+QPushButton:hover#pv_stats_buttons {
+    background-color: #2b2b2b;
+}
+
+QPushButton#pv_top_frame_title{
+    padding: 8px 14px;
+    color: white;
+    font-weight: bold;
+    border: 2px solid #c3dc9b;
+    border-radius: 5px;
+    background-color: #777777;
+}
+
+QPushButton:hover#pv_top_frame_title{
+    background-color: #222222;
+}
+
+#pv_money_vis_button {
+    border: none;
+    background-color: transparent;
+}
+#pv_edit_button {
+    border: none;
+    background-color: transparent;
+}

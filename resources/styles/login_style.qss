@@ -1,0 +1,238 @@
+/* GENERAL LINE EDITS */
+QLineEdit {
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    border: 2px solid #c3dc9b;
+    border-radius: 6px;
+    padding: 6px;
+    transition: border-color 0.2s, background-color 0.2s;
+}
+QLineEdit:focus {
+    border-color: #f2e5a2;
+    background-color: #252525;
+}
+
+/* LOGIN VIEW */
+QPushButton#LV_button_forgot_password {
+    background-color: transparent;
+    border: none;
+    font-style: italic;
+    text-decoration: underline;
+    color: #9BBBDC;
+    transition: color 0.2s;
+}
+QPushButton#LV_button_forgot_password:hover {
+    color: white;
+}
+
+/* Login & Register Buttons */
+QPushButton#LV_button_login, QPushButton#LV_button_register {
+    font-weight: bold;
+    padding: 8px 14px;
+    border-radius: 8px;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+QPushButton#LV_button_login {
+    background-color: #c3dc9b;
+    color: #2b2b2b;
+}
+QPushButton#LV_button_login:hover {
+    background-color: #e4f2ce;
+    border: 2px solid #e4f2ce;
+    transform: scale(1.03);
+}
+
+QPushButton#LV_button_register {
+    background-color: #DCBB9B;
+    border: 2px solid #DCBB9B;
+    color: #2b2b2b;
+}
+QPushButton#LV_button_register:hover {
+    background-color: #f2e5a2;
+    border: 2px solid #f2e5a2;
+    transform: scale(1.03);
+}
+
+/* REGISTER VIEW */
+QLineEdit#RV_email_input,
+QLineEdit#RV_password_input,
+QLineEdit#RV_confirm_password_input {
+    border-radius: 6px;
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    padding: 6px;
+    transition: border-color 0.2s, background-color 0.2s;
+}
+
+QLineEdit#RV_email_input {
+    border: 2px solid #DCBB9B;
+}
+QLineEdit:focus#RV_email_input {
+    border-color: #f2e5a2;
+}
+
+QLineEdit#RV_password_input, QLineEdit#RV_confirm_password_input {
+    border: 2px solid #9BBBDC;
+}
+QLineEdit:focus#RV_password_input, QLineEdit:focus#RV_confirm_password_input {
+    border-color: #f2e5a2;
+}
+
+/* Register Buttons */
+QPushButton#RV_button_create_account,
+QPushButton#RV_button_back_to_login {
+    font-weight: bold;
+    padding: 8px 14px;
+    border-radius: 8px;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+QPushButton#RV_button_create_account {
+    background-color: #c3dc9b;
+    color: #2b2b2b;
+}
+QPushButton:hover#RV_button_create_account {
+    background-color: #e4f2ce;
+    border: 2px solid #e4f2ce;
+    transform: scale(1.03);
+}
+
+QPushButton#RV_button_back_to_login {
+    background-color: #DCBB9B;
+    border: 2px solid #DCBB9B;
+    color: #2b2b2b;
+}
+QPushButton:hover#RV_button_back_to_login {
+    background-color: #f2e5a2;
+    border: 2px solid #f2e5a2;
+    transform: scale(1.03);
+}
+
+/* FORGOT PASSWORD VIEW */
+QLabel#FPV_label {
+    color: white;
+    font-style: italic;
+}
+
+QPushButton#FPV_button_submit_email,
+QPushButton#FPV_button_go_back {
+    font-weight: bold;
+    padding: 8px 14px;
+    border-radius: 8px;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+QPushButton#FPV_button_submit_email {
+    background-color: #c3dc9b;
+    color: #2b2b2b;
+}
+QPushButton#FPV_button_submit_email:hover {
+    background-color: #e4f2ce;
+    border: 2px solid #e4f2ce;
+    transform: scale(1.03);
+}
+
+QPushButton#FPV_button_go_back {
+    background-color: #DCBB9B;
+    border: 2px solid #DCBB9B;
+    color: #2b2b2b;
+}
+QPushButton#FPV_button_go_back:hover {
+    background-color: #f2e5a2;
+    border: 2px solid #f2e5a2;
+    transform: scale(1.03);
+}
+
+/* TWO FACTOR AUTH VIEW */
+QLabel#TFAV_otp_label {
+    color: white;
+    font-style: italic;
+}
+
+QPushButton#TFAV_button_go_back,
+QPushButton#TFAV_button_submit_otp {
+    font-weight: bold;
+    padding: 8px 14px;
+    border-radius: 8px;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+QPushButton#TFAV_button_submit_otp {
+    background-color: #c3dc9b;
+    color: #2b2b2b;
+}
+QPushButton#TFAV_button_submit_otp:hover {
+    background-color: #e4f2ce;
+    border: 2px solid #e4f2ce;
+    transform: scale(1.03);
+}
+
+/* NEW PASSWORD VIEW */
+QPushButton#NPV_button_submit_new_password,
+QPushButton#NPV_button_go_back {
+    font-weight: bold;
+    padding: 8px 14px;
+    border-radius: 8px;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+QPushButton#NPV_button_submit_new_password {
+    background-color: #c3dc9b;
+    color: #2b2b2b;
+}
+QPushButton#NPV_button_submit_new_password:hover {
+    background-color: #e4f2ce;
+    border: 2px solid #e4f2ce;
+    transform: scale(1.03);
+}
+
+QPushButton#NPV_button_go_back {
+    background-color: #DCBB9B;
+    border: 2px solid #DCBB9B;
+    color: #2b2b2b;
+}
+QPushButton#NPV_button_go_back:hover {
+    background-color: #f2e5a2;
+    border: 2px solid #f2e5a2;
+    transform: scale(1.03);
+}
+
+/* MAIN LAYOUT */
+QWidget {
+    background-color: #2b2b2b;
+    border: 2px solid #c3dc9b;
+    border-radius: 15px;
+    color: #d4d4d4;
+}
+
+/* Window Controls */
+QPushButton#close_button,
+QPushButton#minimize_button {
+    border-radius: 6px;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+QPushButton#close_button {
+    background-color: #e0a3a3;
+    border: 1px solid #e0a3a3;
+}
+QPushButton:hover#close_button {
+    background-color: #c68585;
+    border: 1px solid #c68585;
+    transform: scale(1.05);
+}
+
+QPushButton#minimize_button {
+    background-color: #f2e5a2;
+    border: 1px solid #f2e5a2;
+}
+QPushButton:hover#minimize_button {
+    background-color: #dbce85;
+    border: 1px solid #dbce85;
+    transform: scale(1.05);
+}
+
+QLabel#logo_label, #bottom_view_stack {
+    border: none;
+}

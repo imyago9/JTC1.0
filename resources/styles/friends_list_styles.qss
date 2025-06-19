@@ -1,0 +1,114 @@
+/* Styles will be categorized. */
+
+
+/* Buttons */
+
+QPushButton#add_friend_button {
+    padding: 4px 6px;
+    color: white;
+    font-weight: bold;
+    border: 2px solid #e7f1d6;
+    border-radius: 5px;
+    background-color: #222222;
+}
+QPushButton:hover#add_friend_button {
+    background-color: #486328;
+}
+
+QPushButton#friend_requests_button {
+    padding: 4px 6px;
+    color: white;
+    font-weight: bold;
+    border: 2px solid #e7f1d6;
+    border-radius: 5px;
+    background-color: #222222;
+}
+QPushButton:hover#friend_requests_button {
+    background-color: #486328;
+}
+QPushButton#submit_friend_button {
+    padding: 4px 6px;
+    color: white;
+    font-weight: bold;
+    border: 2px solid #e7f1d6;
+    border-radius: 5px;
+    background-color: #222222;
+}
+QPushButton:hover#submit_friend_button {
+    background-color: #486328;
+}
+QPushButton#accept_request_button {
+    padding: 3px 5px;
+    color: white;
+    font-weight: bold;
+    border: 2px solid #e7f1d6;
+    border-radius: 5px;
+    background-color: #222222;
+}
+QPushButton:hover#accept_request_button {
+    background-color: #486328;
+}
+
+QPushButton#reject_request_button {
+    padding: 3px 5px;
+    color: white;
+    font-weight: bold;
+    border: 2px solid #e7f1d6;
+    border-radius: 5px;
+    background-color: #222222;
+}
+QPushButton:hover#reject_request_button {
+    background-color: #486328;
+}
+
+
+
+/* QWidgets */
+
+QWidget#friend_list_frame {
+    background-color: rgba(77, 77, 77, 0.5);;
+    border: 2px solid #c3dc9b;
+    border-radius: 10px;
+}
+QWidget#friend_request_frame {
+    background-color: rgba(77, 77, 77, 0.5);;
+    border: 2px solid #c3dc9b;
+    border-radius: 10px;
+}
+QWidget#friends_list_main {
+    background-color: rgba(77, 77, 77, 0.5);;
+    border: 2px solid #c3dc9b;
+    border-radius: 10px;
+}
+
+/* QFrame */
+QWidget#friends_header_frame {
+    background-color: #c3dc9b;
+    border-radius: 5px;
+
+    background: rgba(77, 77, 77, 0);;
+
+}
+/* QLabels */
+#menu_friends_title {
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    background: rgba(77, 77, 77, 0);;
+}
+
+#empty_placeholder {
+    color: #757575;
+    font-style: italic;
+    text-align: center;
+    background: rgba(77, 77, 77, 0);;
+}
+
+/* Line Edit */
+
+QLineEdit#friend_name_entry {
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    border: 2px solid #c3dc9b;
+    border-radius: 5px;
+}

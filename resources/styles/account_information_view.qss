@@ -1,0 +1,25 @@
+/* QFrames */
+
+#pv_stats_frame {
+    border: 2px solid #c3dc9b;
+    background-color: #333333;
+    border-radius: 5px;
+}
+#pv_graphs_frame {
+    border: 2px solid #c3dc9b;
+    border-radius: 5px;
+    background-color: #333333;
+}
+
+#pv_second_stats_label {
+    color: white;
+    font-style: italic;
+}
+
+QPushButton#pv_stats_buttons {
+    background-color: transparent;
+}
+
+QPushButton:hover#pv_stats_buttons {
+    background-color: #2b2b2b;
+}
