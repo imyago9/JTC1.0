@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/JournalTrade7.0.iml" filepath="$PROJECT_DIR$/JournalTrade7.0.iml" />
-      <module fileurl="file://$PROJECT_DIR$/login_executable/executable.iml" filepath="$PROJECT_DIR$/login_executable/executable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/old_version/JournalTrade7.0.iml" filepath="$PROJECT_DIR$/old_version/JournalTrade7.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/old_version/login_executable/executable.iml" filepath="$PROJECT_DIR$/old_version/login_executable/executable.iml" />
     </modules>
   </component>
 </project>
