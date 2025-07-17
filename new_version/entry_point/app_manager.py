@@ -5,6 +5,7 @@ from PyQt5.QtWidgets import QApplication
 
 from entry_point.login_components.login_gui import LoginGUI
 from main_gui.jt_gui import JournalTradeGUI
+from utils import load_stylesheet
 
 
 class AppManager:
@@ -15,6 +16,9 @@ class AppManager:
         # Create windows once
         self.login_window = LoginGUI()
         self.main_window = JournalTradeGUI()
+
+        load_stylesheet(self.login_window, 'login_window')
+        load_stylesheet(self.main_window, 'main_window')
 
         # Wire signals
         self.login_window.login_successful.connect(self.show_main)

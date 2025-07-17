@@ -1,0 +1,86 @@
+/* General Window Background */
+QWidget {
+    background-color: #f2f2f2;
+    font-family: 'Segoe UI', 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Input Fields */
+QLineEdit {
+    background-color: white;
+    border: 2px solid #b6e685;
+    border-radius: 6px;
+    padding: 6px 10px;
+    font-size: 14px;
+    color: #333;
+}
+QLineEdit:focus {
+    border: 2px solid #90cc54;
+}
+
+/* Login & Register Buttons */
+QPushButton#LV_button_login,
+QPushButton#LV_button_register {
+    background-color: #8dc63f;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-weight: bold;
+}
+QPushButton#LV_button_login:hover,
+QPushButton#LV_button_register:hover {
+    background-color: #7bb236;
+}
+QPushButton#LV_button_login:pressed,
+QPushButton#LV_button_register:pressed {
+    background-color: #6ca62f;
+}
+
+/* Forgot Password Button */
+QPushButton#LV_button_forgot_password {
+    background: transparent;
+    border: none;
+    color: #555;
+    font-size: 13px;
+}
+QPushButton#LV_button_forgot_password:hover {
+    text-decoration: underline;
+    color: #444;
+}
+
+/* Close and Minimize Buttons */
+QPushButton#close_button {
+    background-color: #eaa6a6;
+    color: black;
+    font-weight: bold;
+    border-radius: 6px;
+    border: none;
+    width: 40px;
+    height: 25px;
+}
+QPushButton#close_button:hover {
+    background-color: #d98b8b;
+}
+QPushButton#close_button:pressed {
+    background-color: #c67171;
+}
+
+QPushButton#minimize_button {
+    background-color: #f5e6a8;
+    color: black;
+    font-weight: bold;
+    border-radius: 6px;
+    border: none;
+    width: 40px;
+    height: 25px;
+}
+QPushButton#minimize_button:hover {
+    background-color: #eadc96;
+}
+QPushButton#minimize_button:pressed {
+    background-color: #d4c674;
+}
+
+
