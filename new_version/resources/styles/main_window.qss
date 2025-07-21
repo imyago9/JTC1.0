@@ -1,0 +1,147 @@
+/* General Window */
+QWidget {
+    /* border: 2px solid #c3dc9b;  Subtle green border */
+    border-radius: 8px;
+    font-family: 'Segoe UI', 'Roboto', sans-serif;
+    font-size: 14px;
+    padding: 8px;
+    color: #EAEAEA;
+}
+
+QLineEdit#ACV_account_name {
+    background: #262626;
+    border: 1px solid #3D3D3D;
+    border-radius: 8px;
+    padding: 8px 12px;
+    color: #EAEAEA;
+}
+QLineEdit#ACV_account_name:focus { border: 1px solid #C3DC9B; }
+/* Window Controls */
+
+
+QPushButton#JTG_logout:hover {
+    border-radius: 8px;
+    background-color: #ef5350;
+}
+QPushButton#JTG_logout:pressed {
+    background-color: #EAEAEA;
+}
+
+QPushButton#JTG_close {
+    border-radius: 8px;
+    background-color: rgba(234,234,234, 1);
+}
+QPushButton#JTG_close:hover {
+    background-color: #ef5350;
+}
+QPushButton#JTG_close:pressed {
+    border-radius: 8px;
+    background-color: #EAEAEA;
+}
+
+QPushButton#JTG_minimize {
+    border-radius: 8px;
+    background-color: rgba(234,234,234, 1);
+}
+QPushButton#JTG_minimize:hover {
+    background-color: #f9a825;
+}
+QPushButton#JTG_minimize:pressed {
+    border-radius: 8px;
+    background-color: #EAEAEA;
+}
+
+QPushButton#JTG_maximize {
+    border-radius: 8px;
+    background-color: rgba(234,234,234, 1);
+}
+QPushButton#JTG_maximize:hover {
+    background-color: #65704C;
+}
+QPushButton#JTG_maximize:pressed {
+    border-radius: 8px;
+    background-color: #EAEAEA;
+}
+
+
+QPushButton#PAV_select_account,
+#ACV_create_account { background:#C3DC9B; color:#2B2B2B; font-weight: 500; }
+QPushButton#PAV_select_account:hover,
+#ACV_create_account:hover { background:#65704C; color: white; }
+QPushButton#PAV_select_account:pressed,
+#ACV_create_account:pressed { background:#9BB46F; }
+
+QPushButton#PAV_add_account,
+ #ACV_button_back,
+  #ASV_button_back {
+    background: transparent;
+    border: 1px solid #C3DC9B;
+    color: #C3DC9B;
+}
+QPushButton#PAV_add_account:hover,
+ #ACV_button_back:hover,
+  #ASV_button_back:hover {
+    background: rgba(195,220,155,0.1);
+}
+#PAV_label_main_message,
+ #ACV_label1,
+  #ASV_label1 {
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    border: 2px solid #c3dc9b;
+}
+#PAV_label_sub_message,
+ #ACV_label2 {
+    color: white;
+    font-weight: 500;
+}
+#PAV_stat_box_0,
+#PAV_stat_box_1,
+#PAV_stat_box_2 {
+    background: #262626;
+    border: 1px solid rgba(61,61,61,0.8);
+    border-radius: 8px;
+    color: #EAEAEA;
+}
+#PAV_left_stack,
+#PAV_center_stack,
+#PAV_right_stack {
+    background: rgba(38,38,38,0.3);
+    border: 1px solid rgba(61,61,61,0.4);
+}
+#ASV_account_selection_view { background: #1e1e1e; }
+
+        /* Card */
+QFrame#ASV_card {
+    background: #2a2a2a; border: 1px solid #3c3c3c; border-radius: 6px; }
+QFrame#ASV_card:hover { border-color: #c3dc9b; }
+/* ──────────────────────────────────────────────────────────────
+   Scroll‑area frame & viewport
+   ────────────────────────────────────────────────────────────── */
+#ASV_scroll_area {
+    /* outer frame */
+    background: #1e1e1e;                /* panel bg                 */
+    border: 1px solid #3c3c3c;          /* subtle outline           */
+    border-radius: 10px;
+}
+#ASV_scroll_area QWidget {              /* viewport & children      */
+    background: transparent;
+    color: #e8e8e8;
+    font: 14px "Segoe UI", sans-serif;
+}
+
+/* ──────────────────────────────────────────────────────────────
+   Shared scrollbar settings
+   ────────────────────────────────────────────────────────────── */
+
+#ASV_scroll_area QScrollBar::handle {
+    background: #c3dc9b;
+}
+#ASV_scroll_area QScrollBar::handle:hover {
+    background: #e8e8e8;               /* accent on hover          */
+}
+#ASV_scroll_area QScrollBar::add-line,
+#ASV_scroll_area QScrollBar::sub-line {
+    width: 0; height: 0;               /* hide the arrow buttons   */
+}

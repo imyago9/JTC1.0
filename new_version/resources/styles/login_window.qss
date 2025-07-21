@@ -1,86 +1,89 @@
-/* General Window Background */
+/* General Window */
 QWidget {
-    background-color: #f2f2f2;
+    /* border: 2px solid #c3dc9b;  Subtle green border */
+    border-radius: 8px;
     font-family: 'Segoe UI', 'Roboto', sans-serif;
     font-size: 14px;
-    color: #333;
+    padding: 8px;
+    color: #EAEAEA;
+}
+/* LABEL */
+#signature_label {
+    color: #c3dc9b;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 5px;
+    border-radius: 8px;
+    border: 2px solid #c3dc9b;
 }
 
-/* Input Fields */
 QLineEdit {
-    background-color: white;
-    border: 2px solid #b6e685;
-    border-radius: 6px;
-    padding: 6px 10px;
-    font-size: 14px;
-    color: #333;
+    background: #262626;
+    border: 1px solid #3D3D3D;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-weight: 550;
 }
-QLineEdit:focus {
-    border: 2px solid #90cc54;
+QLineEdit:focus { border: 1px solid #C3DC9B; }
+
+
+
+QPushButton#LV_login,
+   #RV_create_account,
+   #FPV_submit_email { background:#C3DC9B; color:#2B2B2B; font-weight: 500; }
+QPushButton#LV_login:hover,
+   #RV_create_account:hover,
+   #FPV_submit_email:hover { background:#65704C; color: white; }
+QPushButton#LV_login:pressed,
+  #RV_create_account:pressed,
+  #FPV_submit_email:pressed { background:#9BB46F; }
+
+QPushButton#LV_register,
+ #RV_back,
+ #FPV_back {
+    background: transparent;
+    border: 1px solid #C3DC9B;
+    color: #C3DC9B;
+}
+QPushButton#LV_register:hover,
+  #RV_back:hover,
+  #FPV_back:hover {
+    background: rgba(195,220,155,0.1);
 }
 
-/* Login & Register Buttons */
-QPushButton#LV_button_login,
-QPushButton#LV_button_register {
-    background-color: #8dc63f;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    padding: 8px 12px;
-    font-weight: bold;
-}
-QPushButton#LV_button_login:hover,
-QPushButton#LV_button_register:hover {
-    background-color: #7bb236;
-}
-QPushButton#LV_button_login:pressed,
-QPushButton#LV_button_register:pressed {
-    background-color: #6ca62f;
-}
-
-/* Forgot Password Button */
-QPushButton#LV_button_forgot_password {
+/* Forgot Password */
+QPushButton#LV_forgot {
     background: transparent;
     border: none;
-    color: #555;
-    font-size: 13px;
+    font-weight: 400;
+    color: #c3dc9b;
 }
-QPushButton#LV_button_forgot_password:hover {
+QPushButton#LV_forgot:hover {
+    color: #c3dc9b;
     text-decoration: underline;
-    color: #444;
 }
-
-/* Close and Minimize Buttons */
 QPushButton#close_button {
-    background-color: #eaa6a6;
-    color: black;
-    font-weight: bold;
-    border-radius: 6px;
-    border: none;
-    width: 40px;
-    height: 25px;
+    background-color: #c3dc9b;
+    border: 2px solid #c3dc9b;
+    margin-top: 10px;
+    margin-right: 10px;
 }
 QPushButton#close_button:hover {
-    background-color: #d98b8b;
+    background-color: #ef5350;
+    border: 2px solid #ef5350;
 }
-QPushButton#close_button:pressed {
-    background-color: #c67171;
-}
-
 QPushButton#minimize_button {
-    background-color: #f5e6a8;
-    color: black;
-    font-weight: bold;
-    border-radius: 6px;
-    border: none;
-    width: 40px;
-    height: 25px;
+    background-color: #c3dc9b;
+    border: 2px solid #c3dc9b;
+    margin-top: 10px;
+
 }
 QPushButton#minimize_button:hover {
-    background-color: #eadc96;
-}
-QPushButton#minimize_button:pressed {
-    background-color: #d4c674;
-}
+    background-color: #f9a825;
+    border: 2px solid #f9a825;
 
-
+}
+#lg_bvs {
+    border: none;
+}
